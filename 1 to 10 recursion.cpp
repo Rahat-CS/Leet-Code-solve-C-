@@ -3,13 +3,16 @@ using namespace std;
 
 void recursion(int num){
 cout<<num<< endl;
-if (num <10){
-    recursion(num+1);
+if (num ){
+    recursion(num-1);
 }
+else return;
+cout<<num<< endl;
+
 }
 int main()
 {
-    recursion(1);
+    recursion(10);
     return 0;
 
 }
